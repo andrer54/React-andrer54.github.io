@@ -1,31 +1,220 @@
-<html !DOCKTYPE>
+<!DOCTYPE html>
+<html>
+
   <head>
     <title>André DEVELOPER</title>
+    <style type="text/css">
+.flex {
+	display: flex;
+}
+
+.flex-wrap {
+	flex-wrap: wrap;
+}
+
+.flex-item-1 {
+	flex: 1;
+}
+
+/* Flex Item */
+.item {
+	margin: 5px;
+	background: tomato;
+	text-align: center;
+	font-size: 1.5em;
+}
+
+.container {
+	max-width: 400px;
+	margin: 0 auto;
+	border: 1px solid #ccc;
+}
+a{
+  font-size: 1.5em;
+  margin: 0px 15px 0px 15px;
+ color: white;
+}
+a:hover {
+  color: pink;
+}
+h2 {
+	text-align: center;
+	margin: 20px 0 0 0;
+	font-size: 1.25em;
+	font-weight: normal;
+}
+
+
+body {
+	font-family: monospace;
+	color: #333;
+  margin: 0 0 0 0;
+  background-color: silver;
+}
+main{
+  background-color: white;
+  width: 60%;
+  margin: 0 0 0 20%;
+}
+footer{
+  background-color: darkblue;
+}
+section {
+  background: rgba(255,84,104,0.3);
+  border: 2px solid rgb(255,84,104);
+  padding: 10px;
+  margin: 0px;
+}
+.logo{
+  text-align: center;
+	font-size: 2em;
+	font-weight: bold!important;
+  color: white;
+  background: black;
+  padding: 12px 12px 12px 12px;
+}
+nav{
+  text-align: center;
+  border: 1 solid #000000;
+  background-color: darkmagenta;
+  color: white;
+  height: 50px;
+  padding: 20px 20px 0px 20px;
+
+}
+
+    </style>
   </head>
+  
   <body>
     <header>
-      <h1>André Costa</h1>
-      <h3>Desenvolvedor de Sistemas</h3>
+      
+      <div class="logo">
+        <h1>André Costa</h1>
+        <h3>Desenvolvedor de Sistemas</h3>
+      </div>
+      
+      <nav>
+        <a href="index.html">Página Inicial</a>
+        <a href="https://www.linkedin.com/in/andr%C3%A9-costa-4a970318b/">Meu linkedin</a>
+        <a href="https://github.com/andrer54">Meu GitHub</a>
+        <a href="https://andreprogramador.000webhostapp.com/curriculo">Meu currículo</a>
+        <a href="https://andreprogramador.000webhostapp.com/aplicativos">Projetos</a>
+        <a href="https://andreprogramador.000webhostapp.com/contato">Contato</a>
+        <a href="contato.html">Nova página de contato</a>
+      </nav>
+    
     </header>
 
-    <nav>
-      <a href="https://www.linkedin.com/in/andr%C3%A9-costa-4a970318b/">Meu linkedin</a>
-      <a href="https://github.com/andrer54">Meu GitHub</a>
-      <a href="https://andreprogramador.000webhostapp.com/curriculo">Meu currículo</a>
-    </nav>
-
     <main>
-      Essa é minha página secundária... a principal você encontra em:
-      <a href="https://andreprogramador.000webhostapp.com/">Link para o site oficial</a>
+
+      <section>
+        <h2>Sobre André Programador</h2>
+        Estudante de Análise de Sistemas,
+        
+        Apaixonado por tecnologia, pelo que ela tem feito e ainda pode fazer pela nossa sociedade!
+        
+        <br> Adoro programar, tenho estudado continuamente afim de me estabelecer neste ramo!
+        
+        <br> Tenho muito interesse em desenvolvimento mobile, web, e mais adiante certamente IA!
+      </section>
+
+
+      <h2>Técnologias favoritas</h2>
+      <section class="container flex-wrap">
+        <div class="item">Java</div>
+        <div class="item">Spring</div>
+        <div class="item">Hibernate</div>
+        <div class="item">SQL</div>
+        <div class="item">JavaScript</div>
+        <div class="item">Html/CSS</div>
+        <div class="item">Git</div>
+      </section>
+
+
+        <h2>PROJETOS EN DESTAQUE</h2>
+      <section class="container flex">
+      
+        <div class="item flex-item-1">
+          Gerenciador Financeiro
+          <hr>
+          <span>FEITO EM JAVA/ SPRING/ SPRING DATA/ POSTGRESQL</span>
+        </div>
+        <div class="item flex-item-1">
+          Agenda
+          <hr>
+          <span>estudo do caso 1</span>
+        </div>
+        <div class="item flex-item-1">
+          Locadora de Filmes
+          <hr>
+          <span>FEITO EM C#, SQL SERVER, ASP.NET</span>
+        </div>
+ 
+      </section>
+
+
+
+
+      <h2>PRÓXIMAS TAREFAS</h2>
+      <section class="container flex">
+      
+        <div class="item flex-item-1">
+          REFATORAR
+          <hr>
+          <span>Avancei por meses, agora é hora de refatorar. Refatorar meus códigos, meu site, meu currículo, etc.</span>
+        </div>
+        <div class="item flex-item-1">
+          Agenda
+          <hr>
+          <span>estudo do caso 1</span>
+        </div>
+        <div class="item flex-item-1">
+          Locadora de Filmes
+          <hr>
+          <span>FEITO EM C#, SQL SERVER, ASP.NET</span>
+        </div>
+ 
+      </section>
+      
+      <h2>O QUE TENHO FEITO</h2>
+      <section class="container flex">
+      
+        <div class="item flex-item-1">
+          TRADUÇÕES EN_US-PT_BR
+          <hr>
+          <span>Pedidos de patentes, documentos de cessão, etc.</span>
+        </div>
+        <div class="item flex-item-1">
+          Agenda
+          <hr>
+          <span>estudo do caso 1</span>
+        </div>
+        <div class="item flex-item-1">
+          Locadora de Filmes
+          <hr>
+          <span>FEITO EM C#, SQL SERVER, ASP.NET</span>
+        </div>
+ 
+      </section>
+
     </main>
     
     <aside>
-    aqui o aside
+    [aqui o aside]
+    <div>
+    por que um site secundário?
+    Um site feito a mão?
+    Praticar javascript/css/html ?
+  </div>
     </aside>
     
     <footer>
-      aqui o footer
+      aqui o footer. <br>
+      Essa é minha página secundária... a principal você encontra em:
+      <a href="https://andreprogramador.000webhostapp.com/">Link para o site oficial</a>
     </footer>
   
   </body>
+
 </html>
