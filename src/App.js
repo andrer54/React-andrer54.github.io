@@ -3,9 +3,13 @@ import NavBar from './Components/NavBar';
 import HomePage from './Pages/HomePage';
 import {Switch, Route} from 'react-router-dom';
 import AboutPage from './Pages/AboutPage';
-import PortfliosPage from './Pages/PortfoliosPage';
+import SobrePage from './Pages/SobrePage';
+import PortfoliosPage from './Pages/PortfoliosPage';
+import ProjetosPage from './Pages/ProjetosPage';
 import BlogsPage from './Pages/BlogsPage';
 import ContactPage from './Pages/ContactPage';
+import CurriculoPage from './Pages/CurriculoPage';
+import TecnologiasPage from './Pages/TecnologiasPage';
 import { useState } from 'react';
 
 function App() {
@@ -31,11 +35,14 @@ function App() {
               <Route path="/" exact>
                 <HomePage />
               </Route>
-              <Route path="/about" exact>
-                <AboutPage />
+              <Route path="/sobre" exact>
+                <SobrePage />
               </Route>
               <Route path="/portfolios" exact>
-                <PortfliosPage />
+                <PortfoliosPage />
+              </Route>
+              <Route path="/projetos" exact>
+                <ProjetosPage />
               </Route>
               <Route path="/blogs" exact>
                 <BlogsPage />
@@ -43,6 +50,16 @@ function App() {
               <Route path="/contact" exact>
                 <ContactPage />
               </Route>
+              <Route path="/curriculo" exact>
+                <CurriculoPage />
+              </Route>
+              <Route path="/tecnologias" exact>
+                <TecnologiasPage />
+              </Route>
+              <Route path="/about" exact>
+                <AboutPage />
+              </Route>
+              
             </Switch>
           </div>
       </div>

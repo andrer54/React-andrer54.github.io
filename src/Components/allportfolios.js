@@ -8,13 +8,14 @@ import port7 from '../img/portImages/port6.jpg';
 const portfolios = [
     {
         id: 1,
-        category: 'Animation',
+        category: 'Java',
         link1: 'www.youtube.com',
         link2: 'www.github.com',
         icon1: 'G',
         icon2: 'Y',
-        image: port1,
-        title: 'Autodesk Maya'
+        image: port2,
+        title: 'Gerenciador Finanças Pessoais',
+        descricao: 'Web app feito com spring e postgresql'
     },
     {
         id: 2,
@@ -23,7 +24,7 @@ const portfolios = [
         link2: 'www.github.com',
         icon1: 'G',
         icon2: 'Y',
-        image: port2,
+        image: port1,
         title: 'Python Web Scrapping'
     },
     {
@@ -75,7 +76,27 @@ const portfolios = [
         icon2: 'Y',
         image: port4,
         title: 'Vanilla Javascript Website'
-    }
+    },
+    {
+        id: 1,
+        category: 'Animation',
+        link1: 'www.youtube.com',
+        link2: 'www.github.com',
+        icon1: 'G',
+        icon2: 'Y',
+        image: port1,
+        title: 'Autodesk Maya'
+    },
+    {
+        id: 2,
+        category: 'Python',
+        link1: 'www.youtube.com',
+        link2: 'www.github.com',
+        icon1: 'G',
+        icon2: 'Y',
+        image: port2,
+        title: 'Python Web Scrapping'
+    },
 ]
 
 export default portfolios;

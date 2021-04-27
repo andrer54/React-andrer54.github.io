@@ -6,6 +6,14 @@ import location from '../img/location.svg';
 import Tittle from '../Components/Tittle';
 import blog1 from '../img/blogs/blog1.svg';
 
+
+import {faFacebook} from '@fortawesome/free-brands-svg-icons';
+import {faGithub} from '@fortawesome/free-brands-svg-icons';
+import {faYoutube} from '@fortawesome/free-brands-svg-icons';
+import {faLinkedin} from '@fortawesome/free-brands-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {Link} from 'react-router-dom';
+
 function ContactPage() {
     
     return (
@@ -21,9 +29,26 @@ function ContactPage() {
                 <div className="contact-sect">
                     <ContactItem icon={phone} text1={'+55 (21) 99880-0493'} text2={''} title={'Telefone e WhatsApp'}/>
                     <ContactItem icon={email} text1={'andrer54@gmail.com'} text2={''} title={'Email'}/>
-                    <ContactItem icon={location} text1={'linkedin.com/andre.costa'} text2={''} title={'Linkedin'}/>
+                    
+                    <div className="icons">
+                        <a href="https://github.com/andrer54" target="_blank" className="icon-holder">
+                            <FontAwesomeIcon icon={faGithub} className="icon gh" />
+                        </a>
+                        <a href="https://www.linkedin.com/in/andr%C3%A9-costa-4a970318b/" target="_blank" className="icon-holder">
+                            <FontAwesomeIcon icon={faLinkedin} className="icon fb"/>
+                        </a>
+                        <Link to="#" className="icon-holder">
+                            <FontAwesomeIcon icon={faYoutube} className="icon"/>
+                        </Link>
+                        <Link to="#" className="icon-holder">
+                            <FontAwesomeIcon icon={faFacebook} className="icon" />
+                        </Link>
+                    </div>
+                    
                 </div>
+
             </div>
+
         </div>
     )
 }

@@ -10,9 +10,13 @@ function ImageSection() {
             <div className="about-info">
                 <h4>Dev.<span> André Costa</span></h4>
                 <p className="about-text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Voluptatum necessitatibus perferendis numquam dolorem cumque facilis.
-                    Desir per po la ta doso vi slone ve?
+                    Sou entusiasta quanto o assunto é tecnologia, <br />
+                    
+                    pelo que ela tem feito e ainda pode fazer pela nossa sociedade!
+
+                    Adoro programar, tenho estudado continuamente afim de me estabelecer neste ramo! <br />
+        
+                    Tenho muito interesse em desenvolvimento mobile, web, e mais adiante certamente em IA! <br />
                 </p>
                 <div className="about-details">
                     <div className="left-section">
@@ -21,19 +25,21 @@ function ImageSection() {
                         <p>Nationality</p>
                         <p>Languages</p>
                         <p>Address</p>
-                        <p>Countries</p>
+                   
                     </div>
                     <div className="right-section">
-                        <p>: Lorem Ipsum</p>
-                        <p>: 50</p>
-                        <p>: French</p>
-                        <p>: French, Spanish, English</p>
-                        <p>: 2 Beightbridge, BN7 GB9, United kingdom</p>
-                        <p>: France, Spain, Germany</p>
+                        <p>: André Costa</p>
+                        <p>: 38</p>
+                        <p>: Brasileiro</p>
+                        <p>: Portugues, English, Español</p>
+                        <p>: Rio de Janeiro - RJ - Brasil</p>
+                       
                     </div>
                 </div>
-                <button className="btn">Download Cv</button>
+                
             </div>
+            <a className="btn" href="curriculo">Veja meu currículo</a>
+
         </div>
     )
 }

@@ -17,23 +17,27 @@ function Navbar() {
                         </NavLink>
                     </li>
                     <li className="nav-item">
-                        <NavLink to="/about" exact activeClassName="active">
-                            About
+                        <NavLink to="/sobre" exact activeClassName="active">
+                            Sobre
+                        </NavLink>
+                    </li>
+
+                    <li className="nav-item">
+                        <NavLink to="/curriculo" exact activeClassName="active">
+                            Curriculo
                         </NavLink>
                     </li>
                     <li className="nav-item">
-                        <NavLink to="/portfolios" exact activeClassName="active">
-                            Portfolios
-                        </NavLink>
-                    </li>
-                    <li className="nav-item">
-                        <NavLink to="/about" exact activeClassName="active">
+                        <NavLink to="/tecnologias" exact activeClassName="active">
                             Tecnologias
                         </NavLink>
                     </li>
                     <li className="nav-item">
-                        <NavLink to="/blogs" exact activeClassName="active">
-                            Blogs
+                        <a href="https://andreprogramador.000webhostapp.com/blog" target="_blank">Blog</a>
+                    </li>
+                    <li className="nav-item">
+                        <NavLink to="/projetos" exact activeClassName="active">
+                            Projetos
                         </NavLink>
                     </li>
                     <li className="nav-item">
@@ -41,11 +45,29 @@ function Navbar() {
                             Contato
                         </NavLink>
                     </li>
+
+{ /*
+                    <li className="nav-item">
+                        <NavLink to="/blogs" exact activeClassName="active">
+                         [ antigo blogs ]
+                        </NavLink>
+                    </li>
+                    <li className="nav-item">
+                        <NavLink to="/portfolios" exact activeClassName="active">
+                           [ antigo portifolios ]
+                        </NavLink>
+                    </li>
+                    <li className="nav-item">
+                        <NavLink to="/about" exact activeClassName="active">
+                           [ antigo about ]
+                        </NavLink>
+                    </li>
+*/}                  
                 </ul>
 
                 <footer className="footer">
                     <p>
-                        @2021 Lorem Ipsum
+                        @2021 André Costa
                     </p>
             </footer>
             </nav>
