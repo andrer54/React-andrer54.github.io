@@ -38,8 +38,7 @@ function ImageSection() {
                 </div>
                 
             </div>
-            <a className="btn" href="curriculo">Veja meu currículo</a>
-
+           
         </div>
     )
 }

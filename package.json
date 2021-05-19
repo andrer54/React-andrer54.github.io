@@ -1,7 +1,7 @@
 {
   "name": "portofolioyt",
   "version": "0.1.0",
-  "homepage": "https://github.com/andrer54/andrer54.github.io",
+  "homepage": "https://andrer54.github.io",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.34",
