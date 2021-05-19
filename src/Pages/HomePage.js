@@ -19,21 +19,20 @@ function HomePage() {
                 </h1>
                 <br />
                 <div className="about-details">
+       
                     <div className="left-section">
-                    <p className="">
-                    <br /><br />
-                    Seja bem vindo(a) a minha home page! <br />
-                    Sou estudante de análise e desenvolvimento de sistemas, <br />
-                    em busca do primeiro emprego como desenvolvedor... <br />
-                    Fique a vontade para acessar os links ou entrar em contato :)
-                </p>
-                    
+                        <p className="">
+                       <br />
+                        Seja bem vindo(a) a minha home page! <br />
+                        Sou estudante de análise e desenvolvimento de sistemas, <br />
+                        em busca do primeiro emprego como desenvolvedor... <br />
+                        Fique a vontade para acessar os links ou entrar em contato :)
+                        </p>
+                        
                     </div>
                     <div className="right-section">
-     <img src={blog1} width="90%" height="90%" />
+                         <img src={blog1} width="80%" height="80%" />
                     </div>
-                
-
 
                 </div>
 
