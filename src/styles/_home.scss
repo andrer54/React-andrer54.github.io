@@ -1,3 +1,33 @@
 .HomePage {
-    color: red;
+
+ p{
+    color: yellow;
+  
+    text-align: left;
+    line-height: 2;
+    margin-left: 3.3rem;
+    
+    font-size: 1.5rem;
+
+}
+.left-section{
+   align-items: right;
+    width: 45%;
+    img {
+        float: right;
+        display: flex;
+        align-items: center ;
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+    }
+}
+
+ .about-details{
+    margin-top: 80px;
+}
+.right-section{
+    display: flex;
+    align-items: center 
+}
 }

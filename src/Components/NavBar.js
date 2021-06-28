@@ -67,7 +67,7 @@ function Navbar() {
 
                 <footer className="footer">
                     <p>
-                        @2021 André Costa
+                    {document.title = 'André Costa - 2021'} 
                     </p>
             </footer>
             </nav>
