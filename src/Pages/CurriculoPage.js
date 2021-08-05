@@ -10,7 +10,7 @@ import gamedev from '../img/game-dev.svg';
 function AboutPage() {
     return (
         <div className="AboutPage">
-            <Tittle title={'About Me'} span={'About Me'} />
+            <Tittle title={'Currículo'} span={'Currículo'} />
 
 
             <br /><br />
@@ -19,23 +19,28 @@ function AboutPage() {
             <h1>André Rodrigues Costa</h1>
 <p>Rio de Janeiro – RJ</p>
 <p>Telefone e WhatsApp : (21) 99880-0493</p>
-<p>E-mail: <a href="mailto:andrer54@gmail.com">andrer54@gmail.com</a></p>
-<p>Site: https://andreprogramador.000webhostapp.com</p>
+<p>E-mail: andrer54@gmail.com</p>
+<p>Site: https://andrer54.github.io/</p>
 <p>GitHub: https://github.com/andrer54</p>
 <br />
+<hr />
 <p><strong>Objetivo</strong></p>
-<p>Trabalhar como desenvolvedor Junior.</p>
+<p>Trabalhar como desenvolvedor Júnior ou estagiar na área de Desenvolvimento de
+Sistemas. (Em busca do primeiro emprego como desenvolvedor)</p>
 <br />
+<hr />
 <p><strong>Perfil</strong></p>
-<p>Estudante de Análise de Sistemas, programador c# e nodeJS</p>
-<p>Disponibilidade para viajar ou trabalhar em diferentes turnos.</p>
+<p>Estudante de Análise de Sistemas, programador fullstack</p>
+<br />
 <p>Técnico em informática com 8 anos de experiência.</p>
 <br />
+<hr />
 <p><strong>Formação Acadêmica</strong></p>
 <ul>
 <li>Ensino superior (cursando) - Análise de sistemas (Uninter).</li>
 </ul>
 <br />
+<hr />
 <p><b><strong>Tecnologias preferidas</strong></b></p>
 <ul>
 <li>JavaScript, NodeJS, Sequelize, React, React-Native, Angular.</li>
@@ -45,6 +50,7 @@ function AboutPage() {
 <li>ORM - Sequelize(node), Entity Framework(asp.net)</li>
 <li>GIT</li>
 </ul>
+<hr />
 <br />
 <p><strong>Cursos</strong></p>
 <ul>
@@ -61,50 +67,39 @@ function AboutPage() {
 <li>ASP.Net C# Iniciante</li>
 <li>ASP.Net MVC na prática</li>
 </ul>
-<br />
-<p><strong>Conhecimento básico</strong></p>
-<ul>
-<li>CSS/BootStrap</li>
-<li>JSon</li>
-<li>WebAPI com ASP.NET ou nodejs</li>
-<li>ajax</li>
-<li>docker</li>
-</ul>
+<hr />
 <br />
 <p><strong>Idiomas</strong></p>
 <p>Inglês, nível avançado.</p>
 <p>Espanhol, básico.</p>
 <br />
+<hr />
 <p><strong>Informações pessoais</strong></p>
-<p>Brasileiro, 36 anos, solteiro, uma filha.</p>
+<p>Brasileiro, 38 anos, solteiro, uma filha.</p>
 <br />
-<p><strong>Experiência profissional</strong></p>
-<p>(Em busca do primeiro emprego como desenvolvedor)</p>
-<p>Projetos próprios:</p>
-<ul>
-<li><a href="https://analisedeinvestimento.azurewebsites.net/">https://analisedeinvestimento.azurewebsites.net/</a></li>
-<li><a href="https://andrelocadora.azurewebsites.net/">https://andrelocadora.azurewebsites.net/</a></li>
-<li><a href="https://andreagenda.azurewebsites.net/">https://andreagenda.azurewebsites.net/</a></li>
-</ul>
+<hr />
+<p><strong>Experiência profissional em outras áreas</strong></p>
 <br />
-<p><strong>Experiência profissional em outras áreas (HelpDesk)</strong></p>
-<ul>
-<li>Casa de saúde São José (2018, 4 meses)</li>
-</ul>
-<p>Função: Suporte técnico de informática</p>
-<p>Atividades: Atendimento das OS nível 1 e 2, configurações do windows, rede, compartilhamento de impressoras, etc. Participei da migração dos vários aplicativos hospitalares(legado) para o programa MvSoul.</p>
-<ul>
-<li>Empreendedor Individual (2016, 2 anos)</li>
-</ul>
-<p>Função: Consultor em Informática;</p>
-<p>Atividades: Prestar serviços de informática em geral, soluções relacionadas a software, hardware, redes, planejamento de Investimento Tecnológico.</p>
-<ul>
-<li>Petroflex (2009, 7 anos)</li>
-</ul>
-<p>Função: Suporte Técnico;</p>
-<p>Atividades: Manutenção e instalação de computadores e servidores, atendimento de primeiro e segundo nível, Lótus Notes e SAP. Atendimento ao usuário com problemas relacionados ao Windows, Office, etc.</p>
-
-
+<strong>Tradutor freelancer (2020-2021)</strong><br />
+Realizei diversas traduções de pedidos de patentes, em regime home office, na área de
+engenharia química, petróleo e gás, automobilística e outras. Tenho experiência com
+ferramentas de tradução assistida.
+<hr />
+<br />
+<b>Técnico de informática</b>
+<p>
+Atuei como empreendedor individual, prestando serviços de suporte técnico em diversos
+ramos da economia, como restaurantes, fabricas, comércios, financeiras, contábeis, etc.
+Soluções relacionadas a software, hardware, redes, manutenção de computadores,
+configuração de impressoras, internet, etc.
+</p>
+Também trabalhei fixo em algumas empresas como: <br />
+Casa de saúde São José<br />
+Petroflex<br />
+Grupo Freitas<br />
+Atividades: Atendimento presencial e remoto ao usuário com problemas de informática,
+configurações do windows, Office, rede, aplicativos empresariais como: Lótus Notes e SAP.
+Compartilhamento de dados e dispositivos.
 
 
 

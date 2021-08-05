@@ -34,15 +34,10 @@ function ContactPage() {
                         <a href="https://github.com/andrer54" target="_blank" className="icon-holder">
                             <FontAwesomeIcon icon={faGithub} className="icon gh" />
                         </a>
-                        <a href="https://www.linkedin.com/in/andr%C3%A9-costa-4a970318b/" target="_blank" className="icon-holder">
+                        <a href="https://www.linkedin.com/in/andrecosta110/" target="_blank" className="icon-holder">
                             <FontAwesomeIcon icon={faLinkedin} className="icon fb"/>
                         </a>
-                        <Link to="#" className="icon-holder">
-                            <FontAwesomeIcon icon={faYoutube} className="icon"/>
-                        </Link>
-                        <Link to="#" className="icon-holder">
-                            <FontAwesomeIcon icon={faFacebook} className="icon" />
-                        </Link>
+
                     </div>
                     
                 </div>

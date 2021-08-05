@@ -32,14 +32,17 @@ function Navbar() {
                             Tecnologias
                         </NavLink>
                     </li>
+                    {/*}
                     <li className="nav-item">
                         <a href="https://andreprogramador.000webhostapp.com/blog" target="_blank">Blog</a>
                     </li>
+                    
                     <li className="nav-item">
                         <NavLink to="/projetos" exact activeClassName="active">
                             Projetos
                         </NavLink>
                     </li>
+                    */}
                     <li className="nav-item">
                         <NavLink to="/contact" exact activeClassName="active">
                             Contato
