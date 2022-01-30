@@ -1,12 +1,14 @@
 .ContactItem{
     width: 100%;
+  
     &:not(:last-child){
+        
         margin-bottom: 1rem;
     }
     .contact{
         display: flex;
         align-items: center;
-        background-color:#191D2B ;
+        background-color:#2e344e ;
         padding: 3rem 0;
         .right-items{
             margin-left: 2rem;
@@ -18,6 +20,7 @@
             width: 16%;
         }
         .right-items{
+            
             h6{
                 font-size: 1.4rem;
                 font-weight: 500;

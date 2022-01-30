@@ -11,6 +11,7 @@
 @import './styles/home';
 
 *{
+    background-color: #10121B;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -19,7 +20,7 @@ body::-webkit-scrollbar{
     width: 8px;
 }
 body::-webkit-scrollbar-thumb{
-    background-color: #0056d898;
+
     border-radius: 50px;
 }
 body::-webkit-scrollbar-track{

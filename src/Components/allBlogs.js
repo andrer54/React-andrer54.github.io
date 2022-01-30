@@ -8,7 +8,7 @@ const blogs = [
     {
         id: 1,
         image: blog1,
-        title: 'UI/UX Design Starter with Figma',
+        title: "UI/UX Design <h1>Starter</h1> with Figma",
         link: 'https://www.facebook.com/',
         date : '21',
         month: 'Mar',

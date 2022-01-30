@@ -32,29 +32,28 @@ function Navbar() {
                             Tecnologias
                         </NavLink>
                     </li>
-                    {/*}
-                    <li className="nav-item">
-                        <a href="https://andreprogramador.000webhostapp.com/blog" target="_blank">Blog</a>
-                    </li>
                     
                     <li className="nav-item">
                         <NavLink to="/projetos" exact activeClassName="active">
                             Projetos
                         </NavLink>
                     </li>
-                    */}
+                    
+
+                    
                     <li className="nav-item">
                         <NavLink to="/contact" exact activeClassName="active">
                             Contato
                         </NavLink>
                     </li>
 
-{ /*
+
                     <li className="nav-item">
                         <NavLink to="/blogs" exact activeClassName="active">
-                         [ antigo blogs ]
+                         Blog
                         </NavLink>
                     </li>
+                    {/*
                     <li className="nav-item">
                         <NavLink to="/portfolios" exact activeClassName="active">
                            [ antigo portifolios ]
@@ -65,12 +64,13 @@ function Navbar() {
                            [ antigo about ]
                         </NavLink>
                     </li>
-*/}                  
+                    */
+                  }
                 </ul>
 
                 <footer className="footer">
                     <p>
-                    {document.title = 'André Costa - 2021'} 
+                    {document.title = 'André Costa - 2022'} 
                     </p>
             </footer>
             </nav>

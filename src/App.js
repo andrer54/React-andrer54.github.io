@@ -7,6 +7,7 @@ import SobrePage from './Pages/SobrePage';
 import PortfoliosPage from './Pages/PortfoliosPage';
 import ProjetosPage from './Pages/ProjetosPage';
 import BlogsPage from './Pages/BlogsPage';
+import BlogPage from './Pages/BlogPage';
 import ContactPage from './Pages/ContactPage';
 import CurriculoPage from './Pages/CurriculoPage';
 import TecnologiasPage from './Pages/TecnologiasPage';
@@ -48,6 +49,10 @@ function App() {
               <Route path="/blogs" exact>
                 <BlogsPage />
               </Route>
+              <Route path="/blogs/:id" exact>
+                <BlogPage />
+              </Route>
+
               <Route path="/contact" exact>
                 <ContactPage />
               </Route>

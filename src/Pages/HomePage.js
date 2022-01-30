@@ -29,9 +29,9 @@ function HomePage() {
                         <p className="">
                       
                         Seja bem vindo(a) a minha home page! <br />
-                        Sou estudante de ADS <br />
+                        Sou estudante de ADS, me formo esse ano (2022) <br />
                         em busca do primeiro emprego como desenvolvedor... <br />
-                        Fique a vontade para acessar os links ou entrar em contato :)
+                        Acesse os links e conheça um pouco mais do meu trabalho
                         </p>
                         
                     </div>
