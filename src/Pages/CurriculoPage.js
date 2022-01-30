@@ -12,16 +12,20 @@ function AboutPage() {
         <div className="AboutPage">
             <Tittle title={'Currículo'} span={'Currículo'} />
 
-
-            <br /><br />
+            <br />
+            <br />
+            <a href='https://github.com/andrer54/JERKIL-old-andrer54.github.io/raw/main/cv_fullstack_2021.pdf'>Download do cv em pdf.</a>
+            
+           
+            <br />
+            <br />
 
 
             <h1>André Rodrigues Costa</h1>
 <p>Rio de Janeiro – RJ</p>
 <p>Telefone e WhatsApp : (21) 99880-0493</p>
 <p>E-mail: andrer54@gmail.com</p>
-<p>Site: https://andrer54.github.io/</p>
-<p>GitHub: https://github.com/andrer54</p>
+<p>GitHub: <a href="https://github.com/andrer54">https://github.com/andrer54</a></p>
 <br />
 <hr />
 <p><strong>Objetivo</strong></p>
@@ -37,18 +41,17 @@ Sistemas. (Em busca do primeiro emprego como desenvolvedor)</p>
 <hr />
 <p><strong>Formação Acadêmica</strong></p>
 <ul>
-<li>Ensino superior (cursando) - Análise de sistemas (Uninter).</li>
+<li>Ensino superior (cursando) - Análise de sistemas (Uninter).</li>    
 </ul>
 <br />
 <hr />
 <p><b><strong>Tecnologias preferidas</strong></b></p>
 <ul>
-<li>JavaScript, NodeJS, Sequelize, React, React-Native, Angular.</li>
-<li>C#, aspnet.core</li>
-<li>MySQL, T-SQL</li>
-<li>PHP, WordPress</li>
-<li>ORM - Sequelize(node), Entity Framework(asp.net)</li>
+<li>JavaScript, NodeJS, React, React-Native</li>
+<li>JAVA, spring, hibernate</li>
+<li>MySQL, postgreSQL, mongoDB</li>
 <li>GIT</li>
+<li>Docker</li>
 </ul>
 <hr />
 <br />
