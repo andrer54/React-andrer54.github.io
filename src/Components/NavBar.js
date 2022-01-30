@@ -28,6 +28,13 @@ function Navbar() {
                         </NavLink>
                     </li>
                     <li className="nav-item">
+                        <NavLink to="/contact" exact activeClassName="active">
+                            Contato
+                        </NavLink>
+                    </li>
+
+  {/*
+                    <li className="nav-item">
                         <NavLink to="/tecnologias" exact activeClassName="active">
                             Tecnologias
                         </NavLink>
@@ -41,11 +48,12 @@ function Navbar() {
                     
 
                     
-                    <li className="nav-item">
-                        <NavLink to="/contact" exact activeClassName="active">
-                            Contato
-                        </NavLink>
-                    </li>
+
+
+              
+
+
+
 
 
                     <li className="nav-item">
@@ -53,7 +61,7 @@ function Navbar() {
                          Blog
                         </NavLink>
                     </li>
-                    {/*
+                   
                     <li className="nav-item">
                         <NavLink to="/portfolios" exact activeClassName="active">
                            [ antigo portifolios ]

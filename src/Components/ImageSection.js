@@ -10,13 +10,22 @@ function ImageSection() {
             <div className="about-info">
                 <h4>Dev.<span> André Costa</span></h4>
                 <p className="about-text">
-                    Sou entusiasta quanto o assunto é tecnologia, <br />
                     
-                    pelo que ela tem feito e ainda pode fazer pela nossa sociedade!
+                    
+                    Quando vim ao mundo, não hávia internet!<br />
 
-                    Adoro programar, tenho estudado continuamente afim de me estabelecer neste ramo! <br />
+                    Hoje ao observar como a internet transformou nossas vidas, <br />
+                    e o que ela ainda pode fazer pela nossa sociedade... <br />
+                    
+                    Sou apaixonado por internet, <br />
+                    e entusiasta quanto o assunto é tecnologia, <br />
+                    
+                    Quanto mais eu programo, mais eu gosto de programar, <br />
+
+
+                    Tenho estudado continuamente afim de me estabelecer neste ramo! <br />
         
-                    Tenho muito interesse em desenvolvimento mobile, web, e mais adiante certamente em IA! <br />
+                    Tenho muito interesse em desenvolvimento backend - frontend e mobile <br />
                 </p>
                 <div className="about-details">
                     <div className="left-section">
