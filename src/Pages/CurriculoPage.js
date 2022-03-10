@@ -41,7 +41,7 @@ Sistemas. (Em busca do primeiro emprego como desenvolvedor)</p>
 <hr />
 <p><strong>Formação Acadêmica</strong></p>
 <ul>
-<li>Ensino superior (cursando) - Análise de sistemas (Uninter).</li>    
+<li>Cursando - Análise e Desenvolvimento de Sistemas - Universidade Estácio de Sá (2020-2022).</li>    
 </ul>
 <br />
 <hr />
