@@ -29,7 +29,7 @@ function HomePage() {
                         <p className="">
                       
                         Seja bem vindo(a) a minha home page! <br />
-                        Sou estudante de ADS, me formo esse ano (2022) <br />
+                        Sou estudante de ADS, me formo neste ano (2022) <br />
                         em busca do primeiro emprego como desenvolvedor... <br />
                         Para conhecer um pouco mais do meu trabalho acesse os links =) <br />
                         </p>

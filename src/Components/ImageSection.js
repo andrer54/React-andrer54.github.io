@@ -12,15 +12,13 @@ function ImageSection() {
                 <p className="about-text">
                     
                     
-                    Quando vim ao mundo, não hávia internet!<br />
-
                     Hoje ao observar como a internet transformou nossas vidas, <br />
                     e o que ela ainda pode fazer pela nossa sociedade... <br />
                     
-                    Sou apaixonado por internet, <br />
-                    e entusiasta quanto o assunto é tecnologia, <br />
+                    Sou apaixonado por tecnologia, <br />
+                    e entusiasta quanto o assunto é internet, <br />
                     
-                    Quanto mais eu programo, mais eu gosto de programar, <br />
+                    Quanto mais eu programo, mais eu gosto de programar!! <br />
 
 
                     Tenho estudado continuamente afim de me estabelecer neste ramo! <br />
