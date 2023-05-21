@@ -17,7 +17,7 @@ function HomePage() {
             <header className="hero">
             
                 <h1 className="hero-text">
-                    André Costa  
+                    André Costa  <br>
                     <span> Desenvolvedor de Sistemas</span>
                 </h1>
                
@@ -29,7 +29,7 @@ function HomePage() {
                         <p className="">
                       
                         Seja bem vindo(a) a minha home page! <br />
-                        Sou estudante de ADS, me formo neste ano (2022) <br />
+                        Sou formado em Análise e Desenvolvimento de Sistemas (2023) <br />
                         em busca do primeiro emprego como desenvolvedor... <br />
                         Para conhecer um pouco mais do meu trabalho acesse os links =) <br />
                         </p>
