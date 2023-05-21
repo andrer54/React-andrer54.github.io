@@ -78,7 +78,7 @@ function Navbar() {
 
                 <footer className="footer">
                     <p>
-                    {document.title = 'André Costa - 2022'} 
+                    {document.title = 'André Costa - 2023'} 
                     </p>
             </footer>
             </nav>
